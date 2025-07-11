@@ -23,7 +23,7 @@ const connectDB = async () => {
 // Middlewares
 app.use(
   cors({
-    origin: ["*", "http://localhost:5173"],
+    origin: ["*", "http://localhost:5173", "https://blog-client-self.vercel.app"],
     credentials: true,
     optionsSuccessStatus: 200,
   })
